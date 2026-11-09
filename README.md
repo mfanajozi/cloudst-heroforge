@@ -23,7 +23,6 @@ Build output is `dist/`; deploy its contents to a static host. The development s
 
 - [Production PRD](docs/PRD.md): proposed stack, acceptance criteria, data model and release requirements.
 - [Task tracker](docs/TASKS.md): completed local work and outstanding production tasks.
-- [Original catalogue](cloudst-heroforge-hero-section-library.md).
 
 Original Stitch files in `cloudst-heroforge/` are retained as references. App code is in `src/`; logo and favicon use `public/logo.png`.
 
@@ -34,7 +33,7 @@ Lead Capture is removed from the catalogue and editor. Existing saved Lead Captu
 
 ## GitHub and Vercel
 
-Push the repository root, including `src/`, `public/`, `scripts/`, `tests/`, `docs/`, `index.html`, `package.json`, `vercel.json` and the ignore files. The original Markdown catalogue stays in GitHub as a reference. Generated `dist/`, credentials, editor files, duplicate root logo and original Stitch exports are ignored. The deployed logo is `public/logo.png`.
+Push the repository root, including `src/`, `public/`, `scripts/`, `tests/`, `docs/`, `index.html`, `package.json`, `vercel.json` and the ignore files. The original Markdown catalogue is excluded from GitHub and deployment. Generated `dist/`, credentials, editor files, duplicate root logo and original Stitch exports are ignored. The deployed logo is `public/logo.png`.
 
 `vercel.json` configures the **Other** framework preset, `npm run build`, and `dist` output. Import this repository in Vercel with the repository root as the Root Directory. No environment variables are needed. Do not configure `npm run dev` as the production command.
 
