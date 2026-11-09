@@ -61,3 +61,11 @@ Validation commands: `npm test`, `npm run build`, `npm run dev`. No backend serv
 - Done: Git and Vercel ignores for generated files, local configuration, temporary files and design references.
 - Done: removed public product-documentation link and documented GitHub setup/deployment.
 - Pending: initialise/inspect the real Git checkout, create the GitHub remote, push and verify a Vercel deployment. This session's `.git` surface is not a functioning Git repository and is read-only.
+
+
+## Vercel build correction — 9 November 2026
+
+- Fixed: root-anchored `.vercelignore` entries prevent the duplicate-root-logo exclusion from also excluding `public/logo.png`.
+- Fixed: pinned the build engine to Node 22.x rather than allowing automatic major-version upgrades.
+- Verified: application tests and runtime-only build; deployed output includes `dist/public/logo.png`.
+- Pending: Vercel redeployment confirmation.
