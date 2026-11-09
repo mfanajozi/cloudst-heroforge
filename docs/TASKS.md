@@ -69,3 +69,12 @@ Validation commands: `npm test`, `npm run build`, `npm run dev`. No backend serv
 - Fixed: pinned the build engine to Node 22.x rather than allowing automatic major-version upgrades.
 - Verified: application tests and runtime-only build; deployed output includes `dist/public/logo.png`.
 - Pending: Vercel redeployment confirmation.
+
+
+## Free DIY and implementation offer — 9 November 2026
+
+- Done: library explicitly available at no cost for DIY use across the catalogue and pricing page.
+- Done: replaced fixed-price packages, add-ons and care-plan offers with optional CloudST implementation quoted after review.
+- Done: stated that applying a section requires access to the client's website files.
+- Done: updated downloadable brief for website URL, chosen hero and notes; no credentials or requests are transmitted.
+- Done: updated navigation, README and PRD commercial scope.

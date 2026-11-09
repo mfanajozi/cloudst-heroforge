@@ -10,7 +10,7 @@ Requires Node.js 22 or newer. No installation or external dependencies needed.
 npm run dev
 ```
 
-Open http://localhost:5173. Browse 18 templates across six categories (three variations each), customise a hero in the studio, save projects in this browser, download embeddable section HTML/CSS/JS or JSON, or build a package estimate and download a project brief.
+Open http://localhost:5173. Browse 18 templates across six categories (three variations each), customise a hero in the studio, save projects in this browser, download embeddable section HTML/CSS/JS or JSON, or prepare a CloudST implementation brief. The library is free for DIY use. CloudST can apply a hero on behalf of a client, with implementation pricing quoted after review and access to the relevant website files required.
 
 ```sh
 npm test
@@ -26,7 +26,7 @@ Build output is `dist/`; deploy its contents to a static host. The development s
 
 Original Stitch files in `cloudst-heroforge/` are retained as references. App code is in `src/`; logo and favicon use `public/logo.png`.
 
-This MVP has no accounts, cloud persistence, payment or built-in enquiry delivery. Browser storage is device-specific and may be cleared. Quote briefs are downloaded, not submitted. Supply your own image/video URLs, real testimonials before publishing exported components. Bootstrap-specific exports and richer feature-callout editing remain tracked production work.
+This MVP has no accounts, cloud persistence, payment or built-in enquiry delivery. Browser storage is device-specific and may be cleared. Implementation briefs are downloaded, not submitted. Supply your own image/video URLs, real testimonials before publishing exported components. Bootstrap-specific exports and richer feature-callout editing remain tracked production work.
 
 Lead Capture is removed from the catalogue and editor. Existing saved Lead Capture projects are excluded from the active project list without deleting browser data.
 

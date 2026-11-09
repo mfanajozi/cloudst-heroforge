@@ -28,7 +28,7 @@ Only gold is sampled as the dominant chromatic brand colour; supporting neutrals
 
 ## Current implementation
 
-A dependency-free JavaScript/CSS application with a Node development server and static build. It includes 18 templates across six categories, searchable category filters, editable content/CTA/media/proof/style fields, desktop/tablet/mobile iframe previews, browser-local project saves, embeddable section HTML/CSS/JS and JSON downloads, package estimates and downloadable briefs. Live preview and HTML export use the same renderer.
+A dependency-free JavaScript/CSS application with a Node development server and static build. It includes 18 templates across six categories, searchable category filters, editable content/CTA/media/proof/style fields, desktop/tablet/mobile iframe previews, browser-local project saves, embeddable section HTML/CSS/JS and JSON downloads, free DIY information and downloadable implementation briefs. Live preview and HTML export use the same renderer.
 
 This is a functional local MVP. It does not implement accounts, cloud storage, payment, actual enquiry delivery, asset uploads, a separate quote-funnel page, administration, or production analytics. Default illustrations are CSS placeholders; users supply image/video URLs. Testimonials are explicitly demo content. Native scoped CSS is used; this build does not claim Bootstrap, React or Tailwind exports.
 
@@ -94,7 +94,9 @@ Secrets remain server-side. Rate-limit lead submission and uploads; protect agai
 
 ## Commercial scope
 
-Keep the source brief's published packages: Hero Revamp from R4,950; Product Lead Hero from R6,950; Trust Hero Package from R5,950; Hero + Quote Funnel from R11,500; Care Plan R890–R2,900/month. Other source tier ranges can inform bespoke quotes. Current add-ons (revision R1,500, copy R2,000, CTA integration R1,200) are planning assumptions awaiting business approval. Media production is excluded; final VAT treatment, contracts and scope require confirmation.
+The entire library is available at no cost for DIY use, including customisation and section-code/JSON exports. Alternatively, CloudST can apply the chosen section to the client’s existing website. CloudST needs access to the relevant website files and agrees access arrangements directly with the client. Implementation scope and cost are quoted after reviewing the website; no fixed installation fee or add-on pricing is published.
+
+The current implementation page lets visitors download a brief containing their business, website URL, chosen hero and notes. It does not send a request or collect credentials. Earlier paid catalogue packages, add-ons and care-plan prices are superseded by this model. Production submission and notification capabilities elsewhere in this document remain future work.
 
 ## Delivery phases
 
