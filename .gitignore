@@ -1,0 +1,30 @@
+# Generated output and dependencies
+/dist/
+/node_modules/
+/.vercel/
+coverage/
+
+# Local configuration and credentials
+.env*
+!.env.example
+/.aws/
+/.codex/
+/.agents/
+*.pem
+*.key
+
+# Editor / operating system / temporary files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+.~lock.*#
+~$*
+
+# Original design exports and duplicate source assets (kept locally)
+/cloudst-heroforge/
+/logo.png
+/cloudst-heroforge-hero-section-library.docx
